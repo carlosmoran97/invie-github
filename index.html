@@ -11,6 +11,17 @@
       img{
         max-width: 100%;
         vertical-align: top;
+        display: none;
+      }
+      @media screen and (max-width: 786px){
+        img#responsive{
+          display: block;
+        }
+      }
+      @media screen and (min-width: 786px){
+        img.not-responsive{
+          display: block;
+        }
       }
     </style>
   </head>
